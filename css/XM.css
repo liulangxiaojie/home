@@ -1,0 +1,1794 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    font-family: "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+}
+.clearfix:after,.clearfix:before{
+    content: '';
+    display: block;
+    clear: both;
+}
+.interSpace{
+    width: 100%;
+    height: 26px;
+    clear: both;
+}
+h2{
+    font-size: 22px;
+    font-weight: 200;
+    line-height: 58px;
+    height: 58px;
+    color: #333;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+
+/*setTop开始*/
+.setTop{
+    width: 100%;
+    height: 40px;
+    background: #333;
+
+}
+.setTop .context{
+    width: 1226px;
+    height: 40px;
+    margin: 0 auto;
+}
+.setTop .context .topLeft{
+    float: left;
+}
+.setTop .context .topLeft li{
+    float: left;
+    line-height: 40px;
+    font-size: 12px;
+}
+.setTop .context .topLeft li span{
+    margin: 0 .5em;
+    color: #424242;
+}
+.setTop .context ul li a{
+    color: #b0b0b0;
+}
+.setTop .context ul li a:hover{
+    color: #fff;
+}
+.setTop .context .shopCart{
+    width: 120px;
+    height: 40px;
+    margin-left: 15px;
+    line-height: 40px;
+    text-align: center;
+    background: #424242;
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+}
+.setTop .context .shopCart:hover{
+    background-color: #fff;
+}
+.setTop .context .shopCart a{
+    font-size: 12px;
+    color: #b0b0b0;
+}
+.setTop .context .shopCart:hover a{
+    color: #ff6700;
+}
+.setTop .context .shopCart a i{
+    display: inline-block;
+    width: 20px;
+    height: 16px;
+    background-image: url("../img/cart.png");
+    background-position: 0 0;
+    vertical-align: -6px;
+    margin-right: 4px;
+}
+.setTop .context .shopCart:hover a i{
+    background-position: 0 0;
+}
+.setTop .context .shopCart .shopText{
+    position: absolute;
+    left: -196px;
+    top: 40px;
+    width: 316px;
+    height: 98px;
+    background: #fff;
+    line-height: 98px;
+    font-size: 12px;
+    color: #424242;
+    z-index: 3;
+    box-shadow: 0 5px 8px #c2c2c2;
+    display: none;
+}
+.setTop .context .topCenter li{
+    float: left;
+    line-height: 40px;
+    font-size: 12px;
+}
+.setTop .context .topCenter li span{
+    margin: 0 .5em;
+    color: #424242;
+}
+/*setTop结束*/
+/*header  开始*/
+.header{
+    height: 100px;
+    width: auto;
+    position: relative;
+}
+.header .headCenter{
+    width: 1226px;
+    height: 100px;
+    margin: 0 auto;
+}
+.header .headCenter h1{
+    width: 55px;
+    height: 55px;
+    background: url("../img/logo-footer.png");
+    margin-top: 22px;
+}
+.header .headCenter h1 a{
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+.header .headCenter .hai{
+    width: 163px;
+    height: 66px;
+    float: left;
+    margin-top: 17px;
+}
+.header .headCenter .headNav{
+    width: 712px;
+    height: 100px;
+}
+.header .headCenter .headNav li{
+    float: left;
+    line-height: 100px;
+    font-size: 16px;
+    padding: 0 13px;
+    transition: all .3s;
+}
+.header .headCenter .headNav .hai{
+    padding: 0;
+}
+.header .headCenter .headNav li a{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    color: #333;
+}
+.header .headCenter .headNav li a:hover{
+    color: #ff6700;
+}
+.header .headCenter .headNav li .icon{
+    width: 165px;
+    height: 100px;
+    display: inline-block;
+    margin-top: 22px;
+    margin-left: 15px;
+}
+.header .headCenter .headNav li .phoneHidden{
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    height: 230px;
+    background: #fff;
+    z-index: 3;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.2);
+    display: none;
+    border-top: 1px solid rgba(0,0,0,.1);
+}
+.header .headCenter .headNav li .phoneHidden ul{
+    width: 1226px;
+    height: 230px;
+    margin: 0 auto;
+}
+.header .headCenter .headNav li .phoneHidden ul .first{
+    width: 161px;
+    height: 194px;
+    text-align: center;
+    padding: 36px 22px 0;
+}
+.header .headCenter .headNav li .phoneHidden ul .first div{
+    width: 160px;
+    height: 110px;
+}
+.header .headCenter .headNav li .phoneHidden ul .first img{
+    width: 100%;
+    height: 100%;
+}
+.header .headCenter .headNav li .phoneHidden ul .first .name{
+    text-align: center;
+    height: 20px;
+    margin-top: 20px;
+    line-height: 20px;
+    vertical-align: middle;
+    font-size: 12px;
+}
+.header .headCenter .headNav li .phoneHidden ul .first .price{
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    color: #ff6700;
+}
+.header .headCenter .headNav li .phoneHidden ul .first .name a{
+    text-align: center;
+    color: #333333;
+    line-height: 20px;
+}
+.header .headCenter .headNav li .phoneHidden ul .phone_line{
+    margin-top: 36px;
+    width: 1px;
+    height: 100px;
+    background: #dfdfdf;
+    padding: 0;
+}
+.header .headCenter .headNav li .phoneHidden ul li{
+    float: left;
+}
+
+.header .headCenter .headSearch{
+    width: 296px;
+    height: 78px;
+    padding-top: 22px;
+    position: relative;
+}
+.header .headCenter .headSearch .list{
+    position: absolute;
+    left: 0;
+    top: 71px;
+    width: 243px;
+    background: #fff;
+    border: 1px solid #ff6700;
+    z-index: 5;
+    display: none;
+}
+.header .headCenter .headSearch .list li{
+    width: 243px;
+    height: 30px;
+    line-height: 30px;
+}
+.header .headCenter .headSearch .list li:hover{
+    background-color: #fafafa;
+}
+.header .headCenter .headSearch .list li a{
+    display: block;
+    width: 223px;
+    height: 100%;
+    padding: 0 10px;
+    font-size: 12px;
+}
+.header .headCenter .headSearch .list li a .keyword{
+    color: #424242;
+}
+.header .headCenter .headSearch .list li a .result{
+    color: #b0b0b0;
+}
+.header .headCenter .headSearch input{
+    width: 223px;
+    height: 48px;
+    border: 1px solid #e0e0e0;
+    padding: 0 10px;
+    border-right: 0;
+}
+.header .headCenter .headSearch input:focus{
+    border: 1px solid #ff6700;
+    border-right: 0;
+}
+.header .headCenter .headSearch .glass{
+    width: 50px;
+    height: 48px;
+    border: 1px solid #e0e0e0;
+    cursor: pointer;
+    background: url("../img/icon2_01.png") center center no-repeat;
+}
+.header .headCenter .headSearch .glass:hover{
+    border: 1px solid #ff6700;
+    background: #ff6700 url("../img/icon2_02.png") center center no-repeat;
+}
+.header .headCenter .headSearch .product{
+    position: absolute;
+    top: 40px;
+    left: 100px;
+    font-size: 12px;
+    color: #757575;
+    display: block;
+}
+.header .headCenter .headSearch .product li{
+    float: left;
+    margin-right: 5px;
+    padding: 1px 5px;
+    background: #eee;
+    cursor: pointer;
+}
+.header .headCenter .headSearch .product li:hover{
+    background: #ff6700;
+    color: #ffffff;
+}
+/*header  结束*/
+/*banner  开始*/
+.banner {
+    width: 100%;
+    height: 460px;
+}
+.banner .bannerCenter{
+    position: relative;
+    width: 1226px;
+    height: 460px;
+    margin: 0 auto;
+}
+.banner .bannerCenter .posit{
+    width: 1226px;
+    height: 460px;
+}
+.banner .bannerCenter .autoMove{
+
+    width: 1226px;
+    height: 460px;
+    overflow: hidden;
+    z-index: 3;
+}
+.banner .bannerCenter .autoMove li{
+    width: 1226px;
+    height: 460px;
+    z-index: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    filter: alpha(opacity:0)
+}
+.banner .bannerCenter .autoMove li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.banner .bannerCenter .autoMove li img{
+    width: 100%;
+    height: 100%;
+}
+.banner .bannerCenter .bannerTip{
+    position: absolute;
+    bottom: 24px;
+    right: 35px;
+    z-index: 4;
+}
+.banner .bannerCenter .bannerTip li{
+    float: left;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #333;
+    margin-left: 10px;
+    border: 2px solid #777d81;
+    opacity: .6;
+    filter:alpha(opacity:60);
+    cursor: pointer;
+}
+.banner .bannerCenter .bannerTip li:hover{
+    background: #fff;
+}
+.banner .bannerCenter .bannerTip li.bg{
+    background: #fff;
+}
+.banner .bannerCenter .contentList{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 234px;
+    height: 420px;
+    background-color: rgba(0,0,0,.6);
+    z-index: 4;
+    padding: 20px 0;
+}
+.banner .bannerCenter .contentList li{
+    line-height: 42px;
+    position: relative;
+}
+.banner .bannerCenter .contentList li i{
+    float: right;
+    margin: 12px 20px 0 0;
+    width: 16px;
+    height: 16px;
+    background: url("../img/b1.png");
+
+}
+.banner .bannerCenter .contentList li:hover{
+    background-color: #ff6700;
+}
+.banner .bannerCenter .contentList li:hover .children{
+    display: block;
+}
+.banner .bannerCenter .contentList li a{
+    display: block;
+    width: 204px;
+    height: 42px;
+    font-size: 14px;
+    color: #fff;
+    padding-left: 30px;
+    z-index: 10;
+}
+.banner .bannerCenter .contentList li .children{
+    display: none;
+    position: absolute;
+    top: -20px;
+    left: 234px;
+    width: 1000px;
+    height: 458px;
+    border: 1px solid #b0b0b0;
+}
+.banner .bannerCenter .contentList li .children ul{
+    width: 266px;
+    height: 100%;
+    background: #fff;
+    float: left;
+}
+.banner .bannerCenter .contentList li .children ul li{
+    height: 88px;
+    line-height: 88px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.banner .bannerCenter .contentList li .children ul li:hover{
+    color: #ff6700;
+    background: #fff;
+}
+.banner .bannerCenter .contentList li .children ul li img{
+    margin: 0 20px;
+    vertical-align: middle;
+}
+.banner .bannerCenter .handChange{
+    position: absolute;
+    top: 195px;
+    z-index: 4;
+}
+.banner .bannerCenter .handChange a{
+    display: block;
+    float: left;
+    width: 41px;
+    height: 69px;
+    background: url("../img/icon-slides.png");
+}
+.banner .bannerCenter .handChange .aBtnLeft{
+    position: absolute;
+    left: 234px;
+    background-position: -83px 0;
+}
+.banner .bannerCenter .handChange .aBtnRight{
+    position: absolute;
+    right: -1226px;
+    background-position: -124px 0;
+}
+.banner .bannerCenter .handChange .aBtnLeft:hover{
+    background-position: 0 0;
+}
+.banner .bannerCenter .handChange .aBtnRight:hover{
+    background-position: -41px 0;
+}
+.banner .bannerCenter .bannerSub{
+    width: 1226px;
+    height: 170px;
+    margin-top: 14px;
+}
+.banner .bannerCenter .bannerSub .subInf{
+    width: 234px;
+    height: 170px;
+    background: #5f5750 url("../img/huixian.png");
+    list-style-type: none;
+    font-size: 12px;
+    text-align: center;
+}
+.banner .bannerCenter .bannerSub .subInf li{
+    float: left;
+
+}
+.banner .bannerCenter .bannerSub .subInf li a{
+    display: block;
+    width: 78px;
+    height: 65px;
+    padding-top: 20px;
+    line-height: 78px;
+    text-align: center;
+    position: relative;
+    vertical-align: middle;
+    font-size: 12px;
+    color: rgba(255,255,255,0.7);
+}
+.banner .bannerCenter .bannerSub .subInf li a:hover{
+    color: rgb(255,255,255);
+}
+.banner .bannerCenter .bannerSub .subInf li a i{
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: url("../img/dianxinicon.png") center center no-repeat;
+    position: absolute;
+    top: 24px;
+    left: 30px;
+}
+.banner .bannerCenter .bannerSub .subList li{
+    float: left;
+    width: 316px;
+    height: 170px;
+    margin-left: 14px;
+    transition: all.3s linear;
+    box-shadow: none;
+}
+.banner .bannerCenter .bannerSub .subList li:hover{
+    box-shadow: 0 21px 30px -5px rgba(0,0,0,0.1);
+}
+.banner .bannerCenter .bannerSub .subList li a img{
+    width: 100%;
+    height: 100%;
+}
+/*banner  结束*/
+/*leftRightBanner开始*/
+.leftRightBanner{
+    width: 100%;
+    height: 438px;
+    clear: both;
+}
+.leftRightBanner .leftRightCenter{
+    width: 1226px;
+    height: 438px;
+    margin: 0 auto;
+}
+.leftRightBanner .leftRightCenter .bannerTop{
+    width: 1226px;
+    height: 58px;
+}
+.leftRightBanner .leftRightCenter .bannerTop h2{
+    font-size: 22px;
+    font-weight: 200;
+    line-height: 58px;
+    color: #333;
+}
+.leftRightBanner .leftRightCenter .bannerTop .more{
+    width: 71px;
+    height: 24px;
+    margin-top: 18px;
+    position: relative;
+}
+.leftRightBanner .leftRightCenter .bannerTop .more a{
+    position: absolute;
+    background: url("../img/stars.png");
+}
+.leftRightBanner .leftRightCenter .bannerTop .more .aBtnLeft{
+    display: inline-block;
+    width: 24px;
+    height: 16px;
+    padding: 3px 5px;
+    border: 1px solid #e0e0e0;
+    left: 0;
+    background-position: 0 0;
+}
+.leftRightBanner .leftRightCenter .bannerTop .more .aBtnRight:hover{
+    background-position: 0 -72px;
+}
+.leftRightBanner .leftRightCenter .bannerTop .more .aBtnLeft:hover{
+    background-position: 0 -48px;
+}
+.leftRightBanner .leftRightCenter .bannerTop .more .aBtnRight{
+    display:block;
+    width: 24px;
+    height: 16px;
+    padding: 3px 5px;
+    border: 1px solid #e0e0e0;
+    right: 0;
+    background-position: 0 -24px;
+}
+.leftRightBanner .leftRightCenter .bannerInf{
+    width: 1226px;
+    height: 340px;
+    padding-bottom: 40px;
+    overflow: hidden;
+}
+.leftRightBanner .leftRightCenter .bannerInf ul{
+    width: 2452px;
+    height: 340px;
+    /*margin-left: -1226px;*/
+}
+.leftRightBanner .leftRightCenter .bannerInf ul li{
+    width: 234px;
+    height: 309px;
+    margin-right: 14px;
+    float: left;
+    text-align: center;
+    padding-top: 31px;
+    background: #fafafa;
+}
+.leftRightBanner .leftRightCenter .bannerInf ul .orange{
+    border-top: 1px solid #ffac13;
+}
+.leftRightBanner .leftRightCenter .bannerInf ul .green{
+    border-top: 1px solid #83c44e;
+}
+.leftRightBanner .leftRightCenter .bannerInf ul .blue{
+    border-top: 1px solid #2196f3;
+}
+.leftRightBanner .leftRightCenter .bannerInf ul .red{
+    border-top: 1px solid #e53935;
+}
+.leftRightBanner .leftRightCenter .bannerInf ul .cyan{
+    border-top: 1px solid #00c0a5;
+    margin-right: 0;
+}
+.leftRightBanner .leftRightCenter .bannerInf ul li .pic{
+    display: block;
+    width: 160px;
+    height: 160px;
+    margin: 0 37px 25px;
+}
+.leftRightBanner .leftRightCenter .bannerInf ul li img{
+    width: 100%;
+    height: 100%;
+}
+.leftRightBanner .leftRightCenter .bannerInf ul li h3{
+    width: 194px;
+    height: 21px;
+    margin: 0 20px 3px;
+}
+.leftRightBanner .leftRightCenter .bannerInf ul li h3 a{
+    font-size: 14px;
+    font-weight: 400;
+    color: #212121;
+}
+.leftRightBanner .leftRightCenter .bannerInf ul li .des{
+    width: 194px;
+    height: 18px;
+    margin: 5px 20px 12px;
+    font-size: 12px;
+    color: #b0b0b0;
+}
+.leftRightBanner .leftRightCenter .bannerInf ul li .price{
+    width: 234px;
+    height: 21px;
+    line-height: 21px;
+    color: #ff6700;
+    font-size: 14px;
+}
+/*leftRightBanner结束*/
+/*hardware 开始*/
+.hardware{
+    width: 100%;
+    height: 686px;
+    background: #f5f5f5;
+}
+.hardware .hardwareCenter{
+    width: 1226px;
+    height: 686px;
+    padding-bottom: 8px;
+    margin: 0 auto;
+}
+.hardware .hardwareCenter .bannerTop{
+    width: 1226px;
+    height: 58px;
+}
+.hardware .hardwareCenter .bannerTop .title{
+    width: auto;
+    height: 58px;
+    line-height: 58px;
+    font-size: 22px;
+    font-weight: 200;
+    color: #333;
+}
+.hardware .hardwareCenter .bannerTop .more{
+    width: auto;
+    height: 58px;
+    line-height: 58px;
+    font-size: 16px;
+    transition: all .4s;
+}
+.hardware .hardwareCenter .bannerTop .more:hover a{
+    color: #ff6700;
+    transition: all .4s;
+}
+.hardware .hardwareCenter .bannerTop .more a{
+    color: #424242;
+}
+.hardware .hardwareCenter .bannerTop .more:hover a span{
+    background-color: #ff6700;
+    transition: all .4s;
+}
+.hardware .hardwareCenter .bannerTop .more a span{
+    display: block;
+    width: 12px;
+    height: 12px;
+    padding: 4px;
+    margin-left: 8px;
+    margin-top: 18px;
+    border-radius: 50%;
+    background: #b0b0b0 url("../img/h1.png") center center no-repeat;
+}
+.hardware .hardwareCenter .infoLeft{
+    width: 234px;
+    height: 614px;
+    margin-bottom: 14px;
+    position: relative;
+    top: 0;
+    transition: all .2s linear;
+    box-shadow: none;
+}
+.hardware .hardwareCenter .infoLeft:hover{
+    box-shadow: 0 14px 50px -2px rgba(0,0,0,0.15);
+    position: relative;
+    top: -1px;
+}
+.hardware .hardwareCenter .infoLeft .img{
+    width: 100%;
+    height: 100%;
+}
+.hardware .hardwareCenter .infoRight{
+    width: 992px;
+    height: 628px;
+}
+.hardware .hardwareCenter .infoRight .infoList{
+    width: 234px;
+    height: 260px;
+    float: left;
+    padding: 20px 0;
+    margin-left: 14px;
+    margin-bottom: 14px;
+    background: #ffffff;
+    position: relative;
+    transition: all .2s linear;
+    box-shadow: none;
+    overflow: hidden;
+}
+.hardware .hardwareCenter .infoRight .infoList:hover{
+    box-shadow: 0 14px 50px -2px rgba(0,0,0,0.15);
+    position: relative;
+    top: -1px;
+}
+.hardware .hardwareCenter .infoRight .infoList div{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    background-color: #ffac13;
+    width: 64px;
+    height: 20px;
+    margin-left: -32px;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    color: #fff;
+}
+.hardware .hardwareCenter .infoRight .infoList .pic{
+    display: block;
+    width: 160px;
+    height: 160px;
+    margin: 0 auto 18px;
+}
+.hardware .hardwareCenter .infoRight .infoList .pic img{
+    width: 100%;
+    height: 100%;
+}
+.hardware .hardwareCenter .infoRight .infoList h3{
+    width: 214px;
+    height: 21px;
+    margin: 0 10px 2px;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+}
+.hardware .hardwareCenter .infoRight .infoList h3 a{
+    color: #333;
+}
+.hardware .hardwareCenter .infoRight .infoList .des{
+    width: 214px;
+    height: 18px;
+    margin: 0 10px 10px;
+    text-align: center;
+    color: #b0b0b0;
+    font-size: 12px;
+}
+.hardware .hardwareCenter .infoRight .infoList .price{
+    width: 214px;
+    height: 21px;
+    margin: 0 10px 14px;
+    text-align: center;
+    color: #ff6700;
+    font-size: 14px;
+}
+.hardware .hardwareCenter .infoRight .infoList:hover .conceal{
+    transition: all .2s linear;
+    top: 224px;
+}
+.hardware .hardwareCenter .infoRight .infoList .conceal{
+    position: absolute;
+    top: 300px;
+    /*top: 224px;*/
+    left: 32px;
+    width: 174px;
+    height: 76px;
+    background: #ff6801;
+    color: #fff;
+    padding: 0 30px;
+    text-align: left;
+    transition: all .2s linear;
+}
+.hardware .hardwareCenter .infoRight .infoList .conceal .c1{
+    margin-top: 8px;
+    width: 174px;
+    height: 36px;
+    line-height: 18px;
+    font-size: 12px;
+    overflow: hidden;
+}
+.hardware .hardwareCenter .infoRight .infoList .conceal .c2{
+    margin-top: 5px;
+    color: #eee;
+    opacity: .7;
+}
+/*hardware 结束*/
+/*orderingList 开始*/
+.orderingList{
+    height: 700px;
+    background: #f5f5f5;
+}
+.orderingList .orderCenter{
+    width: 1226px;
+    height: 700px;
+    margin: 0 auto;
+}
+.orderingList .orderCenter .bannerTop{
+    width: 1226px;
+    height: 58px;
+    line-height: 58px;
+}
+.orderingList .orderCenter .bannerTop h2{
+    font-size: 22px;
+    font-weight: 200;
+    color: #333;
+}
+.orderingList .orderCenter .bannerTop .tabList{
+    height: 42px;
+}
+.orderingList .orderCenter .bannerTop .tabList li{
+    display: inline-block;
+    line-height: 26px;
+    height: 26px;
+    font-size: 16px;
+    margin-left: 30px;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    transition: all .3s;
+}
+.orderingList .orderCenter .bannerTop .tabList li.bg{
+    color: #ff6700;
+    border-bottom: 2px solid #ff6700;
+    transition: all .3s;
+}
+
+.orderingList .orderCenter .box{
+    width: 1226px;
+    height: 628px;
+   /* overflow: hidden;*/
+}
+.orderingList .orderCenter .box .fixation {
+    width: 234px;
+    height: 614px;
+}
+.orderingList .orderCenter .box .fixation li{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 234px;
+    height: 300px;
+    margin-bottom: 14px;
+    z-index: 1;
+    transition: all .2s linear;
+    box-shadow: none;
+}
+.orderingList .orderCenter .box .fixation li:hover{
+    box-shadow: 0 14px 50px -2px rgba(0,0,0,0.15);
+    position: relative;
+    top: -1px;
+}
+.orderingList .orderCenter .box .fixation li img{
+    width: 100%;
+    height: 100%;
+}
+.orderingList .orderCenter .box .unset{
+    width: 992px;
+    height: 628px;
+    z-index: 5;
+    overflow: hidden;
+}
+.orderingList .orderCenter .box .unset ul{
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+.orderingList .orderCenter .box .unset ul.show{
+    display: block;
+}
+.orderingList .orderCenter .box .unset li{
+    float: left;
+    width: 234px;
+    height: 300px;
+    background-color: #fff;
+    margin-left: 14px;
+    margin-bottom: 14px;
+    position: relative;
+    top: 0;
+    transition: all .2s linear;
+    box-shadow: none;
+
+}
+.orderingList .orderCenter .box .unset li:hover{
+    box-shadow: 0 14px 50px -2px rgba(0,0,0,0.15);
+    position: relative;
+    top: -1px;
+    z-index: 5;
+}
+.orderingList .orderCenter .box .unset li div.bg{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    background-color: #e53935;
+    width: 64px;
+    height: 20px;
+    margin-left: -32px;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    color: #fff;
+}
+.orderingList .orderCenter .box .unset li .pic{
+    display: block;
+    width: 160px;
+    height: 160px;
+    margin: 0 auto 18px;
+    clear: both;
+    padding-top: 20px;
+}
+.orderingList .orderCenter .box .unset li .pic img{
+    width: 100%;
+    height: 100%;
+}
+.orderingList .orderCenter .box .unset li h3{
+    width: 214px;
+    height: 21px;
+    margin: 0 10px 2px;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+}
+.orderingList .orderCenter .box .unset li h3 a{
+    color: #333;
+}
+.orderingList .orderCenter .box .unset li .price{
+    width: 214px;
+    height: 18px;
+    margin: 0 10px 10px;
+    text-align: center;
+    color: #ff6700;
+    font-size: 14px;
+
+}
+.orderingList .orderCenter .box .unset li .price del{
+    font-size: 14px;
+    color: #b0b0b0;
+    text-decoration: line-through;
+}
+.orderingList .orderCenter .box .unset li .des{
+    width: 214px;
+    height: 18px;
+    margin: 0 10px 10px;
+    text-align: center;
+    color: #b0b0b0;
+    font-size: 12px;
+}
+.orderingList .orderCenter .box .unset .gray{
+    background-color: #f5f5f5;
+    box-shadow: none;
+}
+.orderingList .orderCenter .box .unset .gray:hover{
+    top: 0;
+    box-shadow: none;
+}
+.orderingList .orderCenter .box .unset li .top{
+    width: 216px;
+    height: 143px;
+    padding-right: 18px;
+    margin-bottom: 14px;
+    background-color: #fff;
+    position: relative;
+    top: 0;
+    transition: all .2s linear;
+    box-shadow: none;
+}
+.orderingList .orderCenter .box .unset li .top:hover{
+    box-shadow: 0 14px 50px -2px rgba(0,0,0,0.15);
+    position: relative;
+    top: -1px;
+}
+.orderingList .orderCenter .box .unset li .top .pic{
+    display: block;
+    width: 80px;
+    height: 80px;
+
+}
+.orderingList .orderCenter .box .unset li .top .pic img{
+    vertical-align: middle;
+    width: 80px;
+    height: 80px;
+    margin-top: 12px;
+    margin-right: 26px;
+}
+.orderingList .orderCenter .box .unset li .top h3{
+    width: 94px;
+    height: 21px;
+    margin-top: 36px;
+    margin-left: 30px;
+}
+.orderingList .orderCenter .box .unset li .top h3 a{
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: left;
+}
+.orderingList .orderCenter .box .unset li .top p{
+    width: 94px;
+    height: 21px;
+    margin-top: 6px;
+    text-align: left;
+    margin-left: 30px;
+}
+/*orderingList 结束*/
+/*recommend 推荐开始*/
+#recommend{
+    background-color: #f5f5f5;
+    height: 380px;
+}
+#recommend .leftRightCenter{
+    width: 1226px;
+    height: 358px;
+    margin: 0 auto 22px;
+}
+#recommend .leftRightCenter h2{
+    font-size: 22px;
+    font-weight: 200;
+    line-height: 58px;
+    color: #333;
+}
+#recommend .leftRightCenter .bannerTop .more{
+    width: 71px;
+    height: 58px;
+    margin-top: 18px;
+}
+#recommend .leftRightCenter .bannerTop .more a{
+    background: url("../img/stars.png") no-repeat center center;
+}
+#recommend .leftRightCenter .bannerTop .more .aBtnLeft{
+    display:block;
+    width: 24px;
+    height: 16px;
+    padding: 3px 5px;
+    border: 1px solid #e0e0e0;
+    left: 0;
+    background-position: 0 0;
+    margin-right: -1px;
+    cursor: pointer;
+}
+#recommend .leftRightCenter .bannerTop .more .aBtnLeft.bg{
+    background-position: 0 -48px;
+}
+#recommend .leftRightCenter .bannerTop .more .aBtnRight.bg{
+    background-position: 0 -72px;
+}
+#recommend .leftRightCenter .bannerTop .more .aBtnRight{
+    display:block;
+    width: 24px;
+    height: 16px;
+    padding: 3px 5px;
+    border: 1px solid #e0e0e0;
+    right: 0;
+    background-position: 0 -24px;
+}
+#recommend .leftRightCenter .bannerInf{
+    width: 1226px;
+    height: 300px;
+    overflow: hidden;
+}
+#recommend .leftRightCenter .bannerInf ul{
+    width: 4904px;
+    height: 300px;
+    margin-left: 0;
+    overflow: hidden;
+    transition: all .3s;
+}
+#recommend .leftRightCenter .bannerInf ul li{
+    width: 234px;
+    height: 260px;
+    padding-top: 40px;
+    background-color: #fff;
+    float: left;
+    margin-right: 14px;
+    position: relative;
+    top: 0;
+    transition: all .5s;
+}
+#recommend .leftRightCenter .bannerInf ul li:hover{
+    top: -3px;
+    transition: all .5s;
+}
+#recommend .leftRightCenter .bannerInf ul li.last{
+    margin-right: 0;
+}
+#recommend .leftRightCenter .bannerInf ul li .pic{
+    display: block;
+    width: 140px;
+    height: 140px;
+    margin: 0 47px 15px;
+}
+#recommend .leftRightCenter .bannerInf ul li .list{
+    height: 18px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+#recommend .leftRightCenter .bannerInf ul li .list a{
+    font-size: 14px;
+    color: #333;
+
+}
+#recommend .leftRightCenter .bannerInf ul li .price{
+    height: 21px;
+    line-height: 21px;
+    color: #ff6700;
+    font-size: 14px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+#recommend .leftRightCenter .bannerInf ul li .des{
+    font-size: 14px;
+    color: #757575;
+    text-align: center;
+
+}
+/*recommend 推荐结束*/
+/*hotPro 开始*/
+.hotPro {
+    height: 473px;
+    padding-bottom: 22px;
+    background-color: #f5f5f5;
+}
+.hotPro .hotProCenter{
+    width: 1226px;
+    height: 473px;
+    margin: 0 auto;
+}
+.hotPro .hotProCenter .bannerTop{
+    width: 1226px;
+    height: 58px;
+}
+.hotPro .hotProCenter .pro{
+    width: 1226px;
+    height: 415px;
+}
+.hotPro .hotProCenter .pro li{
+    width: 296px;
+    height: 415px;
+    background-color: #fff;
+    float: left;
+    margin-left: 14px;
+    position: relative;
+    top: 0;
+    transition: all .2s linear;
+    box-shadow: none;
+}
+.hotPro .hotProCenter .pro li:hover{
+    box-shadow: 0 14px 50px -2px rgba(0,0,0,0.15);
+    position: relative;
+    top: -1px;
+}
+.hotPro .hotProCenter .pro li.first{
+    margin-left: 0;
+}
+.hotPro .hotProCenter .pro li .pic{
+    display: block;
+    width: 296px;
+    height: 220px;
+    margin-bottom: 28px;
+}
+.hotPro .hotProCenter .pro li .pic img{
+    width: 296px;
+    height: 220px;
+}
+.hotPro .hotProCenter .pro li .des{
+    width: 240px;
+    height: 72px;
+    margin: 0 28px 22px;
+}
+.hotPro .hotProCenter .pro li .des a{
+    color: #333;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+}
+.hotPro .hotProCenter .pro li .form{
+    width: 240px;
+    height: 18px;
+    margin: 0 28px 8px;
+    padding: 0 10px 0 0;
+    font-size: 12px;
+    color: #b0b0b0;
+}
+.hotPro .hotProCenter .pro li .info{
+    width: 236px;
+    height: 21px;
+    margin: 0 30px;
+}
+.hotPro .hotProCenter .pro li .info h3{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    max-width: 170px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    _zoom: 1;
+    vertical-align: bottom;
+}
+.hotPro .hotProCenter .pro li .info h3 a{
+    color: #333;
+}
+.hotPro .hotProCenter .pro li .info span{
+    width: 7px;
+    height: 14px;
+    margin: 0 0.25em;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #e0e0e0;;
+}
+.hotPro .hotProCenter .pro li .info .price{
+    display: inline;
+    color: #ff6700;
+    font-size: 14px;
+}
+/*hotPro 结束*/
+/*content 开始*/
+.content{
+    height: 478px;
+    padding-bottom: 22px;
+    background-color: #f5f5f5;
+}
+.content .contentCenter{
+    width: 1226px;
+    height: 478px;
+    margin: 0 auto;
+}
+.content .contentCenter .bannerTop{
+    width: 1226px;
+    height: 58px;
+}
+.content .contentCenter .bannerList{
+    width: 1226px;
+    height: 420px;
+}
+.content .contentCenter .bannerList li{
+    width: 296px;
+    height: 374px;
+    border-top: 1px solid #ffac13;
+    color: #ffac13;
+    padding-top: 45px;
+    background-color: #fff;
+    float: left;
+    margin-left: 14px;
+    overflow: hidden;
+    position: relative;
+    top: 0;
+    transition: all .2s linear;
+    box-shadow: none;
+}
+.content .contentCenter .bannerList li:hover{
+    box-shadow: 0 14px 50px -2px rgba(0,0,0,0.15);
+    position: relative;
+    top: -1px;
+}
+.content .contentCenter .bannerList .orange{
+    margin-left: 0;
+}
+.content .contentCenter .bannerList .green{
+    border-top: 1px solid #83c44e;
+    color: #83c44e;
+    margin-left: 14px;
+}
+.content .contentCenter .bannerList .red{
+    border-top: 1px solid #e53935;
+    color: #e53935;
+    margin-left: 14px;
+}
+.content .contentCenter .bannerList .blue{
+    border-top: 1px solid #2196f3;
+    color: #2196f3;
+    margin-left: 14px;
+}
+.content .contentCenter .bannerList li .title{
+    width: 276px;
+    height: 24px;
+    margin: 0 10px 18px;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+#window{
+    width: 1184px;
+    height: 332px;
+    /*overflow: hidden;*/
+    /*position: absolute;
+    bottom: 0;
+    left: 0;*/
+}
+.handleChange{
+    width: 1184px;
+    height: 332px;
+}
+.content .contentCenter .bannerList li .banner{
+    width: 296px;
+    height: 332px;
+    float: left;
+}
+.content .contentCenter .bannerList li .banner h4{
+    width: 256px;
+    height: 25px;
+    margin: 0 20px 5px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.25;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center;
+}
+.content .contentCenter .bannerList li .banner h4 a{
+    color: #333333;
+}
+.content .contentCenter .bannerList li .banner .des{
+    width: 200px;
+    height: 40px;
+    margin: 0 48px 10px;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    overflow: hidden;
+}
+.content .contentCenter .bannerList li .banner .des a{
+    color: #b0b0b0;
+}
+.content .contentCenter .bannerList li .banner .price{
+    width: 276px;
+    height: 21px;
+    margin: 0 10px 15px;
+    text-align: center;
+    font-size: 14px;
+}
+.content .contentCenter .bannerList li .banner .price a{
+    color: #333;
+}
+.content .contentCenter .bannerList li .banner .pic{
+    width: 216px;
+    height: 154px;
+    margin: 0 40px;
+}
+.content .contentCenter .bannerList li .banner .pic img{
+    width: 100%;
+    height: 100%;
+}
+.content .contentCenter .bannerList li .point{
+    position: absolute;
+    left: 0;
+    bottom: 14px;
+    width: 296px;
+    height: 30px;
+}
+.content .contentCenter .bannerList li .point ul{
+    width: 150px;
+    margin: 0 auto;
+}
+.content .contentCenter .bannerList li .point ul li{
+    width: 6px;
+    height: 6px;
+    border: 2px solid #f5f5f5;
+    border-radius: 6px;
+    text-align: left;
+    background-color: #b0b0b0;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    float: left;
+    padding: 0;
+    margin-left: 23px;
+}
+.content .contentCenter .bannerList li .point ul li.bg{
+    cursor: default;
+    width: 6px;
+    height: 6px;
+    border: 2px solid #ff6700;
+    border-radius: 6px;
+    text-align: left;
+    background-color: transparent;
+}
+.content .contentCenter .bannerList li .point ul li span{
+    display: block;
+    width: 6px;
+    height: 6px;
+    border: 2px solid #f5f5f5;
+    border-radius: 6px;
+    text-align: left;
+    background-color: #b0b0b0;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+}
+.content .contentCenter .bannerList li .point ul li span.bg{
+    display: block;
+    width: 6px;
+    height: 6px;
+    border: 2px solid #ff6700;
+    border-radius: 6px;
+    text-align: left;
+    background-color: transparent;
+}
+.content .contentCenter .bannerList li .handChange{
+    /*display: none;*/
+    transition: all .2s linear;
+    opacity: 0;
+}
+.content .contentCenter .bannerList li:hover .handChange{
+    transition: all .2s linear;
+    /*display: block;*/
+    opacity: 1;
+}
+.content .contentCenter .bannerList li .handChange a{
+    display: block;
+    width: 20px;
+    height: 24px;
+    padding: 12px 0;
+    font-size: 18px;
+    line-height: 24px;
+    position: absolute;
+    top: 50%;
+
+}
+.content .contentCenter .bannerList li .handChange .left{
+    left: 0;
+    background: rgba(66,66,66,0.2)  url("../img/hand1.png") center center no-repeat;
+
+}
+.content .contentCenter .bannerList li .handChange .left:hover{
+    background: rgba(66,66,66,0.6)  url("../img/hand1.png") center center no-repeat;
+}
+.content .contentCenter .bannerList li .handChange .right{
+    right: 0;
+    background: rgba(66,66,66,0.2)  url("../img/hand2.png") center center no-repeat;
+
+}
+.content .contentCenter .bannerList li .handChange .right:hover{
+    background: rgba(66,66,66,0.6)  url("../img/hand2.png") center center no-repeat;
+}
+/*content 结束*/
+/*video 开始*/
+#video{
+    height: 343px;
+    padding-bottom: 60px;
+    background-color: #f5f5f5;
+}
+#video .videoCenter{
+    width: 1226px;
+    height: 343px;
+    margin: 0 auto;
+}
+
+#video .videoCenter .bannerTop .more{
+    height: 58px;
+    line-height: 58px;
+}
+#video .videoCenter .bannerTop .more a{
+    transition: all .4s;
+    color: #333;
+}
+#video .videoCenter .bannerTop .more a:hover{
+    color: #ff6700;
+}
+#video .videoCenter .bannerTop .more a:hover span{
+    background-color: #ff6700;
+}
+#video .videoCenter .bannerTop .more span{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #b0b0b0 url("../img/h1.png");
+    margin-left: 8px;
+    margin-top: 18px;
+}
+#video .videoCenter .videoList{
+    width: 1226px;
+    height: 285px;
+}
+#video .videoCenter .videoList .videoItem{
+    position: relative;
+    width: 296px;
+    height: 285px;
+    text-align: center;
+    background-color: #fff;
+    margin-left: 14px;
+    float: left;
+    transition: all .2s linear;
+    /*box-shadow: 0 10px 35px rgba(0,0,0,.2);*/
+}
+#video .videoCenter .videoList .first{
+    margin-left: 0;
+}
+#video .videoCenter .videoList .videoItem .pic{
+    width: 296px;
+    height: 180px;
+    margin-bottom: 28px;
+    position: relative;
+}
+#video .videoCenter .videoList .videoItem .pic i{
+    display: block;
+    position: absolute;
+    left: 20px;
+    bottom: 10px;
+    width: 32px;
+    height: 20px;
+    background: rgba(0,0,0,.6) url("../img/play.png") center center no-repeat;
+    border: 2px solid #fff;
+    border-radius: 12px;
+    transition: all .2s;
+}
+#video .videoCenter .videoList .videoItem .pic:hover i{
+
+    background-color: #ff6700;
+    border-color: #ff6700;
+}
+#video .videoCenter .videoList .videoItem .pic img{
+    width: 100%;
+    height: 100%;
+}
+#video .videoCenter .videoList .videoItem h4{
+    width: 296px;
+    height: 21px;
+    margin-bottom: 8px;
+    line-height: 21px;
+}
+#video .videoCenter .videoList .videoItem h4 a{
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+}
+#video .videoCenter .videoList .videoItem h4 a:hover{
+    color: #ff6700;
+}
+#video .videoCenter .videoList .videoItem p{
+    width: 296px;
+    height: 18px;
+    font-size: 12px;
+    color: #b0b0b0;
+    line-height: 18px;
+}
+/*video 结束*/
+/*footer开始*/
+.footer{
+    width: 100%;
+    height: 272px;
+    background: #ffffff;
+}
+.footer .footer_middle{
+    width: 1226px;
+    height: 272px;
+    margin: 0 auto;
+}
+.footer .footer_middle .service{
+    width: 1226px;
+    height: 53px;
+    border-bottom: 1px solid #e0e0e0;
+    padding-top: 26px;
+}
+.footer .footer_middle .service li{
+    float: left;
+    width: 244px;
+    height: 25px;
+    border-left: 1px solid #e0e0e0;
+    text-align: center;
+}
+.footer .footer_middle .service .one{
+    border-left: 1px solid transparent;
+}
+.footer .footer_middle .service li a{
+    line-height: 25px;
+    font-size: 16px;
+    color: #616161;
+}
+.footer .footer_middle .service li a span{
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    margin-right: 7px;
+    background: url("../img/miicon_01.png") 0 0 no-repeat;
+}
+.footer .footer_middle .service li a .i1{
+    background-position: 0 0;
+}
+.footer .footer_middle .service li a .i2{
+    background-position: -36px 0;
+}
+.footer .footer_middle .service li a .i3{
+    background-position: -104px 0;
+}
+.footer .footer_middle .service li a .i4{
+    background-position: -139px 0;
+}
+.footer .footer_middle .service li a .i5{
+    background-position: -68px 0;
+}
+.footer .footer_middle .service li a:hover{
+    color: #FF6600;
+}
+.footer .footer_middle .service li a:hover .i1{
+    background-position: 0 -31px;
+}
+.footer .footer_middle .service li a:hover .i2{
+    background-position: -36px -31px;
+}
+.footer .footer_middle .service li a:hover .i3{
+    background-position: -105px -31px;
+}
+.footer .footer_middle .service li a:hover .i4{
+    background-position: -139px -30px;
+}
+.footer .footer_middle .service li a:hover .i5{
+    background-position: -69px -30px;
+}
+.footer .footer_middle .about{
+    float: left;
+    width: 160px;
+    height: 151px;
+    padding-top: 41px;
+}
+.footer .footer_middle .about dt{
+    font-size: 14px;
+    color: #424242;
+    margin-bottom: 24px;
+}
+.footer .footer_middle .about dd{
+    font-size: 12px;
+    margin-top: 7px;
+}
+.footer .footer_middle .about dd a{
+    color: #757575;
+}
+.footer .footer_middle .about dd:hover a{
+    color: #FF6600;
+}
+.footer .footer_middle .weeks{
+    float: right;
+    width: 245px;
+    height: 122px;
+    border-left: 1px solid #e0e0e0;
+    margin-top: 30px;
+
+}
+.footer .footer_middle .weeks i{
+    display: block;
+    font-size: 22px;
+    color: #FF6600;
+    font-style: normal;
+    width: 251px;
+    height: 22px;
+    text-align: center;
+}
+.footer .footer_middle .weeks p{
+    font-size: 14px;
+    line-height: 20px;
+    color: #616161;
+    text-align: center;
+    margin-top: 2px;
+}
+.footer .footer_middle .weeks a{
+    display: inline-block;
+    width: 118px;
+    height: 28px;
+    line-height: 28px;
+    font-size: 12px;
+    border: 1px solid #FF6600;
+    background: #ffffff;
+    margin-left: 66px;
+    margin-top: 16px;
+    /*vertical-align: middle;*/
+    text-align: center;
+    color: #FF6600;
+}
+.footer .footer_middle .weeks a span{
+    background: url("../img/talk.png") 0 0 no-repeat;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin: 0px 3px 2px 0;
+    vertical-align: middle;
+}
+.footer .footer_middle .weeks a:hover{
+    color: #ffffff;
+    background: #FF6600;
+}
+.footer .footer_middle .weeks a:hover span{
+    background-position: -22px 0;
+}
+.site{
+    width: 100%;
+    height: 166px;
+}
+.site .site_middle{
+    width: 1226px;
+    height: 136px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+.site .site_middle .info_top{
+    height: 57px;
+}
+.site .site_middle .info_top .info_left{
+    width: 820px;
+    height: 57px;
+}
+.site .site_middle .info_top .info_left span{
+    float: left;
+    background: url("../img/logo-footer.png");
+    display: inline-block;
+    width: 56px;
+    height: 57px;
+    margin-right: 10px;
+}
+.site .site_middle .info_top .info_left .info_text a{
+    font-size: 12px;
+    color: #757575;
+}
+.site .site_middle .info_top .info_left .info_text a:hover{
+    color: #FF6600;
+}
+.site .site_middle .info_top .info_left .instructions{
+    font-size: 12px;
+    color: #b0b0b0;
+}
+.site .site_middle .info_top .info_left .instructions a{
+    font-size: 12px;
+    color: #b0b0b0;
+}
+.site .site_middle .info_top .info_left .instructions a:hover{
+    color: #FF6600;
+}
+.site .site_middle .info_top .info_right{
+    width: 374px;
+    height: 57px;
+    padding-left: 32px;
+}
+.site .site_middle .info_top .info_right .list1{
+    background: url("../img/seal.png") 0 0 no-repeat;
+    background-size: 100% 100%;
+    width: 83px;
+    height: 28px;
+    display: inline-block;
+}
+.site .site_middle .info_top .info_right span{
+    margin-left: 6px;
+}
+.site .site_middle .info_top .hot img{
+    margin: 30px 479px 0 479px;
+}
+
+
